@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEECD4-F0BF-FC83-CC47-99A69D6EC6D0}|Assembly-CSharp.csproj|c:\\users\\nvan\\documents\\unity projects\\hpgp-frogsandshrek\\assets\\scripts\\systems\\froggrounddetectionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEECD4-F0BF-FC83-CC47-99A69D6EC6D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\froggrounddetectionsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEECD4-F0BF-FC83-CC47-99A69D6EC6D0}|Assembly-CSharp.csproj|c:\\users\\nvan\\documents\\unity projects\\hpgp-frogsandshrek\\assets\\scripts\\systems\\frogjumpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEECD4-F0BF-FC83-CC47-99A69D6EC6D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\systems\\frogjumpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D3BEECD4-F0BF-FC83-CC47-99A69D6EC6D0}|Assembly-CSharp.csproj|c:\\users\\nvan\\documents\\unity projects\\hpgp-frogsandshrek\\assets\\scripts\\bakers\\frogjumpauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D3BEECD4-F0BF-FC83-CC47-99A69D6EC6D0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bakers\\frogjumpauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrogJumpSystem.cs",
+              "DocumentMoniker": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "ToolTip": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:17:26.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrogGroundDetectionSystem.cs",
+              "DocumentMoniker": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Scripts\\Systems\\FrogGroundDetectionSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Systems\\FrogGroundDetectionSystem.cs",
+              "ToolTip": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Scripts\\Systems\\FrogGroundDetectionSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Systems\\FrogGroundDetectionSystem.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAA2wA8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:07:25.089Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrogJumpAuthoring.cs",
+              "DocumentMoniker": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Scripts\\Bakers\\FrogJumpAuthoring.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Bakers\\FrogJumpAuthoring.cs",
+              "ToolTip": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Scripts\\Bakers\\FrogJumpAuthoring.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Bakers\\FrogJumpAuthoring.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T13:06:36.507Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
