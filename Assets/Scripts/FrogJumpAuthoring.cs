@@ -20,7 +20,7 @@ namespace Frogs
                 {
                     jumpForce = authoring.jumpForce,
                     forwardForce = authoring.forwardForce,
-                    isGrounded = authoring.isGrounded
+                    isGrounded = true
                 }); 
             }
         }
