@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|c:\\users\\nvan\\documents\\unity projects\\hpgp-frogsandshrek\\assets\\common\\scripts\\entitysender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|solutionrelative:assets\\common\\scripts\\entitysender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|c:\\users\\nvan\\documents\\unity projects\\hpgp-frogsandshrek\\assets\\14. exam\\scripts\\bakers\\frogjumpauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|solutionrelative:assets\\14. exam\\scripts\\bakers\\frogjumpauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,6 +23,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EntitySender.cs",
+              "DocumentMoniker": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Common\\Scripts\\EntitySender.cs",
+              "RelativeDocumentMoniker": "Assets\\Common\\Scripts\\EntitySender.cs",
+              "ToolTip": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\Common\\Scripts\\EntitySender.cs",
+              "RelativeToolTip": "Assets\\Common\\Scripts\\EntitySender.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAgwBoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:09:55.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "FrogJumpAuthoring.cs",
               "DocumentMoniker": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Bakers\\FrogJumpAuthoring.cs",
               "RelativeDocumentMoniker": "Assets\\14. Exam\\Scripts\\Bakers\\FrogJumpAuthoring.cs",
