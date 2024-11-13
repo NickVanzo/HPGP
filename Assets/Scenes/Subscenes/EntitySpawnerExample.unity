@@ -151,8 +151,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6db44f195262daa4dadb4cf62fb4b147, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Prefab: {fileID: 0}
-  SpawnRate: 0
+  Prefab: {fileID: 1694367745167669725, guid: 1cbeec7c37a30a7499ecd2fded24040c, type: 3}
+  SpawnRate: 2
+  CarNumber: 0
 --- !u!4 &858738712
 Transform:
   m_ObjectHideFlags: 0
@@ -162,7 +163,7 @@ Transform:
   m_GameObject: {fileID: 858738710}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -2.96}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
