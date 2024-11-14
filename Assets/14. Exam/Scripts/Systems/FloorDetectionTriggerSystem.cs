@@ -17,12 +17,6 @@ partial struct FloorDetectionTriggerSystem : ISystem
         foreach (var (triggerComponent, jumpData, transform) in SystemAPI
                      .Query<RefRO<FloorDetectionTriggerComponent>, RefRW<FrogJumpData>, RefRW<LocalTransform>>())
         {
-            float size = triggerComponent.ValueRO.size;
-
-            //transform.ValueRW.Tra.c0 = new float4(size, 0.0f, 0.0f, 0.0f);
-            //triggerTransform.ValueRW.Value.c1 = new float4(0.0f, size, 0.0f, 0.0f);
-            //triggerTransform.ValueRW.Value.c2 = new float4(0.0f, 0.0f, size, 0.0f);
-
             PhysicsWorldSingleton physicsWorld = SystemAPI.GetSingleton<PhysicsWorldSingleton>();
             NativeList<ColliderCastHit> hits = new NativeList<ColliderCastHit>(Allocator.Temp);
 
