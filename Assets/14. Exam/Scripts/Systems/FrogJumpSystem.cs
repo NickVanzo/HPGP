@@ -12,10 +12,14 @@ partial struct FrogJumpSystem : ISystem
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        foreach (var (physicsVelocity, jumpData) in SystemAPI.Query<RefRW<PhysicsVelocity>, RefRW<FrogJumpData>>())
+        foreach (var (physicsVelocity, jumpData, localTransform) in SystemAPI.Query<RefRW<PhysicsVelocity>, RefRW<FrogJumpData>, RefRO<LocalTransform>>())
         {
             string isGrounded = jumpData.ValueRO.isGrounded == true ? "true" : "false";
-            Debug.Log(isGrounded);
+            if(jumpData.ValueRO.isGrounded)
+            {
+                float3 jumpDirection = math.normalize(new float3(0, jumpData.ValueRO.jumpForce, jumpData.ValueRO.forwardForce));
+                physicsVelocity.ValueRW.Linear += jumpDirection;
+            }
         }
     }
 }
