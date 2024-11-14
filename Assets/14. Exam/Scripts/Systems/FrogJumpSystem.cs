@@ -4,6 +4,8 @@ using Unity.Entities;
 using Unity.Transforms;
 using Unity.Physics;
 using Unity.Mathematics;
+using Debug = UnityEngine.Debug;
+
 partial struct FrogJumpSystem : ISystem
 {
 
@@ -12,7 +14,8 @@ partial struct FrogJumpSystem : ISystem
     {
         foreach (var (physicsVelocity, jumpData) in SystemAPI.Query<RefRW<PhysicsVelocity>, RefRW<FrogJumpData>>())
         {
-            
+            string isGrounded = jumpData.ValueRO.isGrounded == true ? "true" : "false";
+            Debug.Log(isGrounded);
         }
     }
 }
