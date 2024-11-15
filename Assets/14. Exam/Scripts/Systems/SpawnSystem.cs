@@ -19,15 +19,48 @@ partial struct SpawnSystem : ISystem
         state.Enabled = false;
         var ecbSingleton = SystemAPI.GetSingleton<ECSingletonComponent>();
 
-        int n = ecbSingleton.spawnAmount;
-        for (int i = 0; i < n * n; i++)
+        if (ecbSingleton.schedulingType == SchedulingType.Mainthread)
         {
-            var e = state.EntityManager.Instantiate(ecbSingleton.prefabTospawn);
+            int n = ecbSingleton.spawnAmount;
+            for (int i = 0; i < n * n; i++)
+            {
+                var e = state.EntityManager.Instantiate(ecbSingleton.prefabTospawn);
+                float x = (i % n) * 2f;
+                float y = 2f;
+                float z = (i / (n * n)) * 2f;
+
+                state.EntityManager.SetComponentData(e, LocalTransform.FromPosition(new float3(x, y, z)));
+            };
+        }
+        else
+        {
+            var ECB = SystemAPI.GetSingleton<BeginSimulationEntityCommandBufferSystem.Singleton>()
+                .CreateCommandBuffer(state.WorldUnmanaged).AsParallelWriter();
+            state.Dependency = new spawnCubesParallel
+            {
+                ecb = ECB
+            }.ScheduleParallel(state.Dependency);
+        }
+    }
+}
+
+
+
+[BurstCompile]
+public partial struct spawnCubesParallel : IJobEntity
+{
+    public EntityCommandBuffer.ParallelWriter ecb;
+    public void Execute([ChunkIndexInQuery] int key, in ECSingletonComponent ecbSingleton)
+    {
+        int n = ecbSingleton.spawnAmount;
+        for (int i = 0; i < n*n ; i++)
+        {
+            var e = ecb.Instantiate(key, ecbSingleton.prefabTospawn);
             float x = (i % n) * 2f;
-            float y = 2f;
+            float y = (i / n) * 2f;
             float z = (i / (n * n)) * 2f;
 
-            state.EntityManager.SetComponentData(e, LocalTransform.FromPosition(new float3(x, y, z)));
-        };
+            ecb.AddComponent(key,e, LocalTransform.FromPosition(new float3(x, y, z)));
+        }
     }
 }

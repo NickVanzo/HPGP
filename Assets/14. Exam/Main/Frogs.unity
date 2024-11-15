@@ -511,9 +511,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103f7cb3b301543f28c4681bc403ebb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAmount: 47
+  spawnAmount: 200
   prefabToSpawn: {fileID: 5052114466756796623, guid: a9d6cd2b20c774abbbe1fcc8753f880f,
     type: 3}
+  schedulingType: 1
 --- !u!4 &1850360251
 Transform:
   m_ObjectHideFlags: 0
@@ -585,6 +586,11 @@ PrefabInstance:
     - target: {fileID: 2456597645070887827, guid: a9d6cd2b20c774abbbe1fcc8753f880f,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3936821507364553393, guid: a9d6cd2b20c774abbbe1fcc8753f880f,
+        type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5052114466756796623, guid: a9d6cd2b20c774abbbe1fcc8753f880f,
