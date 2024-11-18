@@ -12,13 +12,23 @@ partial struct FrogJumpSystem : ISystem
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        foreach (var (physicsVelocity, jumpData, localTransform) in SystemAPI.Query<RefRW<PhysicsVelocity>, RefRW<FrogJumpData>, RefRO<LocalTransform>>())
+        var job = new FrogJumpJob();
+        job.Schedule();
+    }
+
+    [BurstCompile]
+    partial struct FrogJumpJob : IJobEntity
+    {
+        // In source generation, a query is created from the parameters of Execute().
+        // Here, the query will match all entities having a LocalTransform, PostTransformMatrix, and RotationSpeed component.
+        // (In the scene, the root cube has a non-uniform scale, so it is given a PostTransformMatrix component in baking.)
+        void Execute(ref PhysicsVelocity physicsVelocity, ref FrogJumpData jumpData, LocalTransform localTransform)
         {
-            string isGrounded = jumpData.ValueRO.isGrounded == true ? "true" : "false";
-            if(jumpData.ValueRO.isGrounded)
+            string isGrounded = jumpData.isGrounded == true ? "true" : "false";
+            if (jumpData.isGrounded)
             {
-                float3 jumpDirection = math.normalize(new float3(0, jumpData.ValueRO.jumpForce, jumpData.ValueRO.forwardForce));
-                physicsVelocity.ValueRW.Linear += jumpDirection;
+                float3 jumpDirection = math.normalize(new float3(0, jumpData.jumpForce, jumpData.forwardForce));
+                physicsVelocity.Linear += jumpDirection;
             }
         }
     }
