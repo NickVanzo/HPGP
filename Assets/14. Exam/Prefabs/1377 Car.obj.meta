@@ -3,7 +3,12 @@ guid: 75783ecf270f54cd1b35625b4872e25e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: CarMat
+    second: {fileID: 2100000, guid: 5024ab69104ea4b49b51847cab50a4f4, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
