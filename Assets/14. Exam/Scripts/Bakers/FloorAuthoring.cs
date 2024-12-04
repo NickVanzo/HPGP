@@ -7,7 +7,8 @@ class FloorAuthoring : MonoBehaviour
     {
         public override void Bake(FloorAuthoring authoring)
         {
-      
+            Entity triggerAuthoring = GetEntity(TransformUsageFlags.None);
+            AddComponent(triggerAuthoring, new FloorTag());
         }
     }
 }
