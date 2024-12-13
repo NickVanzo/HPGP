@@ -59,6 +59,7 @@ partial struct FloorDetectionTriggerSystem : ISystem
                     jumpData.ValueRW.isTouchingCar = true;
                     var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
                     soundManager.PlayJumpSound();
+                    
                     break;
                 }
                 else
