@@ -14,6 +14,15 @@ partial struct FloorDetectionTriggerSystem : ISystem
 
         EntityManager entityManager = state.EntityManager;
 
+        Entity carEntity = Entity.Null;
+        foreach (var (carTag, transform, entity) in SystemAPI.Query<RefRO<CarTag>, RefRW<LocalTransform>>().WithEntityAccess())
+        {
+               carEntity = entity;
+        }
+
+        var carTransform = entityManager.GetComponentData<LocalTransform>(carEntity);
+        float3 carPosition = carTransform.Position;
+
         foreach (var (triggerComponent, jumpData, transform) in SystemAPI
                      .Query<RefRO<FloorDetectionTriggerComponent>, RefRW<FrogJumpData>, RefRW<LocalTransform>>())
         {
@@ -35,22 +44,19 @@ partial struct FloorDetectionTriggerSystem : ISystem
 
             jumpData.ValueRW.isGrounded = hit && entityManager.HasComponent<FloorTag>(rayResult.Entity);
 
-/*
-                foreach (ColliderCastHit hit in hitsForCarCollision)
-                {
-                    if (entityManager.HasComponent<CarTag>(hit.Entity))
-                    {
-                        jumpData.ValueRW.isTouchingCar = true;
-                        var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
-                        soundManager.PlayJumpSound();
-                        break;
-                    }
-                    else
-                    {
-                        jumpData.ValueRW.isTouchingCar = false;
-                    }
-                }
-*/
+            float3 entityPosition = transform.ValueRO.Position;
+
+            float distance = math.distance(entityPosition, carPosition);
+
+            if(distance < 2.0f)
+            {
+                jumpData.ValueRW.isTouchingCar = true;
+                //var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
+                //soundManager.PlayJumpSound();
+            } else
+            {
+                jumpData.ValueRW.isTouchingCar = false;
+            }
         }
     }
 }
