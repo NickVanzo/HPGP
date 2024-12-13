@@ -14,6 +14,7 @@ partial struct FrogJumpSystem : ISystem
     {
         var job = new FrogJumpJob();
         job.Schedule();
+
     }
 
     [BurstCompile]
@@ -29,6 +30,18 @@ partial struct FrogJumpSystem : ISystem
             {
                 float3 jumpDirection = math.normalize(new float3(0, jumpData.jumpForce, jumpData.forwardForce));
                 physicsVelocity.Linear += jumpDirection;
+            }
+            if(jumpData.isTouchingCar)
+            {
+                Unity.Mathematics.Random random = new Unity.Mathematics.Random((uint)(456)); 
+                float3 randomForce = new float3(
+                    random.NextFloat(-5f, 5f), 
+                    random.NextFloat(5f, 15f), 
+                    random.NextFloat(-5f, 5f)  
+                );
+
+                physicsVelocity.Linear += randomForce;
+                jumpData.isTouchingCar = false;
             }
         }
     }

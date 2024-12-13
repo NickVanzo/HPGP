@@ -19,6 +19,7 @@ partial struct FloorDetectionTriggerSystem : ISystem
         {
             PhysicsWorldSingleton physicsWorld = SystemAPI.GetSingleton<PhysicsWorldSingleton>();
             NativeList<ColliderCastHit> hits = new NativeList<ColliderCastHit>(Allocator.Temp);
+            NativeList<ColliderCastHit> hitsForCarCollision = new NativeList<ColliderCastHit>(Allocator.Temp);
 
             physicsWorld.SphereCastAll(
                 transform.ValueRO.Position,
@@ -29,7 +30,15 @@ partial struct FloorDetectionTriggerSystem : ISystem
                 CollisionFilter.Default
             );
 
-
+            physicsWorld.SphereCastAll(
+               transform.ValueRO.Position,
+               3,
+               new float3(0, -1, 0),
+               1,
+               ref hitsForCarCollision,
+               CollisionFilter.Default
+           );
+           
             foreach (ColliderCastHit hit in hits)
             {
                 if (entityManager.HasComponent<FloorTag>(hit.Entity))
@@ -40,6 +49,21 @@ partial struct FloorDetectionTriggerSystem : ISystem
                 else
                 {
                     jumpData.ValueRW.isGrounded = false;
+                }
+            }
+
+            foreach (ColliderCastHit hit in hitsForCarCollision)
+            {
+                if (entityManager.HasComponent<CarTag>(hit.Entity))
+                {
+                    jumpData.ValueRW.isTouchingCar = true;
+                    var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
+                    soundManager.PlayJumpSound();
+                    break;
+                }
+                else
+                {
+                    jumpData.ValueRW.isTouchingCar = false;
                 }
             }
         }
