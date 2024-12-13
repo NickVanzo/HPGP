@@ -18,55 +18,39 @@ partial struct FloorDetectionTriggerSystem : ISystem
                      .Query<RefRO<FloorDetectionTriggerComponent>, RefRW<FrogJumpData>, RefRW<LocalTransform>>())
         {
             PhysicsWorldSingleton physicsWorld = SystemAPI.GetSingleton<PhysicsWorldSingleton>();
-            NativeList<ColliderCastHit> hits = new NativeList<ColliderCastHit>(Allocator.Temp);
-            NativeList<ColliderCastHit> hitsForCarCollision = new NativeList<ColliderCastHit>(Allocator.Temp);
 
-            physicsWorld.SphereCastAll(
-                transform.ValueRO.Position,
-                triggerComponent.ValueRO.size / 2,
-                new float3(0, -1, 0),
-                1,
-                ref hits,
-                CollisionFilter.Default
-            );
-
-            physicsWorld.SphereCastAll(
-               transform.ValueRO.Position,
-               3,
-               new float3(0, -1, 0),
-               1,
-               ref hitsForCarCollision,
-               CollisionFilter.Default
-           );
-           
-            foreach (ColliderCastHit hit in hits)
+            var raycastInput = new RaycastInput
             {
-                if (entityManager.HasComponent<FloorTag>(hit.Entity))
-                {
-                    jumpData.ValueRW.isGrounded = true;
-                    break;
-                }
-                else
-                {
-                    jumpData.ValueRW.isGrounded = false;
-                }
-            }
+                Start = transform.ValueRO.Position,
+                End = transform.ValueRO.Position - new float3(0.0f, 10.0f, 0.0f),
+                Filter = CollisionFilter.Default
+            };
 
-            foreach (ColliderCastHit hit in hitsForCarCollision)
-            {
-                if (entityManager.HasComponent<CarTag>(hit.Entity))
+            Debug.DrawRay(transform.ValueRO.Position, transform.ValueRO.Position - new float3(0.0f, 10.0f, 0.0f));
+
+                var hit = physicsWorld.CastRay(
+                    raycastInput,
+                    out var rayResult
+                );
+
+            jumpData.ValueRW.isGrounded = hit && entityManager.HasComponent<FloorTag>(rayResult.Entity);
+
+/*
+                foreach (ColliderCastHit hit in hitsForCarCollision)
                 {
-                    jumpData.ValueRW.isTouchingCar = true;
-                    var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
-                    soundManager.PlayJumpSound();
-                    
-                    break;
+                    if (entityManager.HasComponent<CarTag>(hit.Entity))
+                    {
+                        jumpData.ValueRW.isTouchingCar = true;
+                        var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
+                        soundManager.PlayJumpSound();
+                        break;
+                    }
+                    else
+                    {
+                        jumpData.ValueRW.isTouchingCar = false;
+                    }
                 }
-                else
-                {
-                    jumpData.ValueRW.isTouchingCar = false;
-                }
-            }
+*/
         }
     }
 }

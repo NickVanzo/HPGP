@@ -259,7 +259,7 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 8
+  m_GravityFactor: 2
   m_OverrideDefaultMassDistribution: 0
   m_CenterOfMass:
     x: 0
@@ -272,9 +272,9 @@ MonoBehaviour:
       z: 0
     RotationOrder: 4
   m_InertiaTensor:
-    x: 0.4
-    y: 0.4
-    z: 0.4
+    x: 0
+    y: 0
+    z: 0
   m_WorldIndex: 0
   m_CustomTags:
     Tag00: 0
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13b54048ac80774bb48b461af8b8689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 5
-  forwardForce: 2
+  jumpForce: 1000
+  forwardForce: 3
   isGrounded: 0
   isTouchingCar: 0
 --- !u!114 &6571853329320482925
