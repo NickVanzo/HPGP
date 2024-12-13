@@ -28,7 +28,7 @@ partial struct FrogJumpSystem : ISystem
             string isGrounded = jumpData.isGrounded == true ? "true" : "false";
             if (jumpData.isGrounded)
             {
-                float3 jumpDirection = math.normalize(new float3(0, jumpData.jumpForce, UnityEngine.Random.Range(-jumpData.forwardForce, jumpData.forwardForce)));
+                float3 jumpDirection = math.normalize(new float3(0, jumpData.jumpForce, jumpData.forwardForce));
                 physicsVelocity.Linear += jumpDirection;
             }
             if(jumpData.isTouchingCar)

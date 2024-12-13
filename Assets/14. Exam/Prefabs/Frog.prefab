@@ -109,8 +109,8 @@ MonoBehaviour:
     y: 0
     z: 0.1
   m_PrimitiveSize:
-    x: 0.5
-    y: 0.5
+    x: 0.6
+    y: 0.6
     z: 0.2
   m_PrimitiveOrientation:
     Value:
@@ -119,15 +119,15 @@ MonoBehaviour:
       z: 0
     RotationOrder: 4
   m_Capsule:
-    Height: 0.5
-    Radius: 0.25
+    Height: 0.6
+    Radius: 0.3
     Axis: 1
   m_Cylinder:
     Height: 0.2
-    Radius: 0.25
+    Radius: 0.3
     Axis: 2
   m_CylinderSideCount: 20
-  m_SphereRadius: 0.25
+  m_SphereRadius: 0.3
   m_MinimumSkinnedVertexWeight: 0.1
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.015
@@ -247,7 +247,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MotionType: 0
-  m_Smoothing: 1
+  m_Smoothing: 0
   m_Mass: 1
   m_LinearDamping: 0.01
   m_AngularDamping: 0.05
@@ -259,7 +259,7 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 1
+  m_GravityFactor: 2
   m_OverrideDefaultMassDistribution: 0
   m_CenterOfMass:
     x: 0
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 1000
-  forwardForce: 1
+  forwardForce: 3
   isGrounded: 0
   isTouchingCar: 0
 --- !u!114 &6571853329320482925
