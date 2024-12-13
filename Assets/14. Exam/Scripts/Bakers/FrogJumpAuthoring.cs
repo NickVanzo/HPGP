@@ -3,8 +3,8 @@ using UnityEngine;
 
 class FrogJumpAuthoring : MonoBehaviour
 {
-    public float jumpForce = 10.0f;
-    public float forwardForce = 3.0f;
+    public float jumpForce;
+    public float forwardForce;
     public bool isGrounded = false;
     public bool isTouchingCar = false;
 

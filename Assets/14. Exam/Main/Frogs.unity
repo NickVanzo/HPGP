@@ -4061,6 +4061,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: car
       objectReference: {fileID: 0}
+    - target: {fileID: 5691598921189065765, guid: 6a850729a86c1a442a5027fb4811cd90,
+        type: 3}
+      propertyPath: m_Smoothing
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6981585194000663412, guid: 6a850729a86c1a442a5027fb4811cd90,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5174,7 +5179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103f7cb3b301543f28c4681bc403ebb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAmount: 12000
+  spawnAmount: 5000
   prefabToSpawn: {fileID: 5052114466756796623, guid: a9d6cd2b20c774abbbe1fcc8753f880f,
     type: 3}
   schedulingType: 1
