@@ -104,6 +104,8 @@ class VehicleAuthoring : MonoBehaviour
                 CameraTo = GetEntity(authoring.CameraTo, TransformUsageFlags.Dynamic),
                 CameraFrom = GetEntity(authoring.CameraFrom, TransformUsageFlags.Dynamic)
             });
+
+            AddComponent(entity, new CarTag());
         }
     }
 }

@@ -3,7 +3,7 @@ using UnityEngine;
 
 class ECSingletonAuthoring : MonoBehaviour
 {
-    [Range(1, 200)]
+    [Range(1, 200000)]
     public int spawnAmount;
     public GameObject prefabToSpawn;
     public SchedulingType schedulingType;

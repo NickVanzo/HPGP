@@ -6,6 +6,7 @@ class FrogJumpAuthoring : MonoBehaviour
     public float jumpForce = 10.0f;
     public float forwardForce = 3.0f;
     public bool isGrounded = false;
+    public bool isTouchingCar = false;
 
     class FrogJumpAuthoringBaker : Baker<FrogJumpAuthoring>
     {
@@ -17,9 +18,11 @@ class FrogJumpAuthoring : MonoBehaviour
             {
                 jumpForce = authoring.jumpForce,
                 forwardForce = authoring.forwardForce,
-                isGrounded = authoring.isGrounded
+                isGrounded = authoring.isGrounded,
+                isTouchingCar = authoring.isTouchingCar
             });
         }
+
     }
 
    
@@ -30,4 +33,5 @@ public struct FrogJumpData : IComponentData
     public float jumpForce;
     public float forwardForce;
     public bool isGrounded;
+    public bool isTouchingCar;
 }

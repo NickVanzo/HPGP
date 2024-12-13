@@ -29,7 +29,11 @@ partial struct SpawnSystemCar : ISystem
                 float y = 2f;
                 float z = -500f;
 
-                state.EntityManager.SetComponentData(e, LocalTransform.FromPosition(new float3(x, y, z)));
+                state.EntityManager.SetComponentData(e, LocalTransform.FromPositionRotationScale(
+                    new float3(x, y, z),
+                    quaternion.identity,
+                    0.2f
+                    ));
             };
         }
         else
