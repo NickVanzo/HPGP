@@ -8,11 +8,31 @@ using Debug = UnityEngine.Debug;
 
 partial struct FrogJumpSystem : ISystem
 {
+    // Random instance (stored as part of the system's unmanaged state)
+    private Random classRandom;
+
+    public void OnCreate(ref SystemState state)
+    {
+        // Initialize Random with a non-zero seed
+        classRandom = new Random((uint)UnityEngine.Random.Range(1, int.MaxValue));
+    }
 
     [BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
-        var job = new FrogJumpJob();
+        // Create a local copy of the random instance for thread safety
+        Random jobRandom = classRandom;
+
+        // Schedule the job
+        var job = new FrogJumpJob
+        {
+            random = jobRandom
+        };
+
+        state.Dependency = job.ScheduleParallel(state.Dependency);
+
+        // Update the random instance's state for the next frame
+        classRandom = job.random;
         job.Schedule();
 
     }
@@ -23,30 +43,35 @@ partial struct FrogJumpSystem : ISystem
         // In source generation, a query is created from the parameters of Execute().
         // Here, the query will match all entities having a LocalTransform, PostTransformMatrix, and RotationSpeed component.
         // (In the scene, the root cube has a non-uniform scale, so it is given a PostTransformMatrix component in baking.)
-        void Execute(ref PhysicsVelocity physicsVelocity, ref FrogJumpData jumpData, LocalTransform localTransform)
+        public Random random;
+
+        void Execute(ref PhysicsVelocity physicsVelocity, ref FrogJumpData jumpData, in LocalTransform localTransform)
         {
-            string isGrounded = jumpData.isGrounded == true ? "true" : "false";
             if (jumpData.isGrounded)
             {
-                float3 jumpDirection = math.normalize(new float3(0, jumpData.jumpForce, jumpData.forwardForce));
+                // Generate random direction for jump
+                float3 jumpDirection = math.normalize(new float3(
+                    random.NextFloat(-1f * jumpData.forwardForce, jumpData.forwardForce),
+                    jumpData.jumpForce,
+                    random.NextFloat(-1f * jumpData.forwardForce, jumpData.forwardForce)
+                ));
+
                 physicsVelocity.Linear += jumpDirection;
             }
-            if(jumpData.isTouchingCar)
+
+            if (jumpData.isTouchingCar)
             {
-                Unity.Mathematics.Random random = new Unity.Mathematics.Random((uint)(456)); 
+                // Generate random force when touching a car
                 float3 randomForce = new float3(
-                    random.NextFloat(-5f, 5f), 
-                    random.NextFloat(5f, 15f), 
-                    random.NextFloat(-5f, 5f)  
+                    random.NextFloat(-1f * jumpData.forwardForce, jumpData.forwardForce),
+                    random.NextFloat(0, jumpData.jumpForce),
+                    random.NextFloat(-1f * jumpData.forwardForce, jumpData.forwardForce)
                 );
 
                 physicsVelocity.Linear += randomForce;
-                jumpData.isTouchingCar = false;
+                jumpData.isTouchingCar = false; // Reset flag
             }
         }
     }
 }
 
-/*
- 
- */

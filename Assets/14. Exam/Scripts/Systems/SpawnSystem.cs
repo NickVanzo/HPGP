@@ -68,7 +68,7 @@ public partial struct spawnCubesParallel : IJobEntity
             // Generate random coordinates
             float x = random.NextFloat(-100f, 100f); // Adjust the range for your map size
             float z = random.NextFloat(-100f, 100f); // Adjust the range for your map size
-            float y = 0.1f; // Almost ground level
+            float y = 0.8f; // Almost ground level
 
             ecb.AddComponent(key, e, LocalTransform.FromPosition(new float3(x, y, z)));
         }

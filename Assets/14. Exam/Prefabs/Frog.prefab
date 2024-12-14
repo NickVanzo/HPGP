@@ -103,15 +103,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShapeType: 1
+  m_ShapeType: 0
   m_PrimitiveCenter:
-    x: -0.027807772
+    x: 0
     y: 0.128528
     z: 0
   m_PrimitiveSize:
-    x: 0.76253456
-    y: 0.76253456
-    z: 0.8284918
+    x: 0.3
+    y: 0.5
+    z: 0.5
   m_PrimitiveOrientation:
     Value:
       x: -0
@@ -119,21 +119,22 @@ MonoBehaviour:
       z: 90
     RotationOrder: 4
   m_Capsule:
-    Height: 0.8284918
-    Radius: 0.38126728
+    Height: 0.5
+    Radius: 0.25
     Axis: 2
   m_Cylinder:
-    Height: 0.8284918
-    Radius: 0.38126728
-    Axis: 2
+    Height: 0.3
+    Radius: 0.25
+    Axis: 0
   m_CylinderSideCount: 20
-  m_SphereRadius: 0.4142459
+  m_SphereRadius: 0.25
   m_MinimumSkinnedVertexWeight: 0.147
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.015
     m_BevelRadius: 0.05
     m_MinimumAngle: 2.5000002
-  m_CustomMesh: {fileID: 0}
+  m_CustomMesh: {fileID: -2432090755550338912, guid: c0894493b4f8a4b3d8a6998e0b84e8f7,
+    type: 3}
   m_ForceUnique: 0
   m_Material:
     m_SupportsTemplate: 1
@@ -247,7 +248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_MotionType: 0
-  m_Smoothing: 0
+  m_Smoothing: 1
   m_Mass: 1
   m_LinearDamping: 0.01
   m_AngularDamping: 0.05
@@ -297,8 +298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13b54048ac80774bb48b461af8b8689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 1000
-  forwardForce: 3
+  jumpForce: 3
+  forwardForce: 2
   isGrounded: 0
   isTouchingCar: 0
 --- !u!114 &6571853329320482925
