@@ -103,32 +103,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b275e5f92732148048d7b77e264ac30e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ShapeType: 0
+  m_ShapeType: 1
   m_PrimitiveCenter:
-    x: 0
-    y: 0
-    z: 0.1
+    x: -0.027807772
+    y: 0.128528
+    z: 0
   m_PrimitiveSize:
-    x: 0.6
-    y: 0.6
-    z: 0.2
+    x: 0.76253456
+    y: 0.76253456
+    z: 0.8284918
   m_PrimitiveOrientation:
     Value:
       x: -0
-      y: 0
-      z: 0
+      y: 90
+      z: 90
     RotationOrder: 4
   m_Capsule:
-    Height: 0.6
-    Radius: 0.3
-    Axis: 1
+    Height: 0.8284918
+    Radius: 0.38126728
+    Axis: 2
   m_Cylinder:
-    Height: 0.2
-    Radius: 0.3
+    Height: 0.8284918
+    Radius: 0.38126728
     Axis: 2
   m_CylinderSideCount: 20
-  m_SphereRadius: 0.3
-  m_MinimumSkinnedVertexWeight: 0.1
+  m_SphereRadius: 0.4142459
+  m_MinimumSkinnedVertexWeight: 0.147
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.015
     m_BevelRadius: 0.05
@@ -259,8 +259,8 @@ MonoBehaviour:
     x: 0
     y: 0
     z: 0
-  m_GravityFactor: 2
-  m_OverrideDefaultMassDistribution: 0
+  m_GravityFactor: 1
+  m_OverrideDefaultMassDistribution: 1
   m_CenterOfMass:
     x: 0
     y: 0
@@ -272,9 +272,9 @@ MonoBehaviour:
       z: 0
     RotationOrder: 4
   m_InertiaTensor:
-    x: 0
-    y: 0
-    z: 0
+    x: Infinity
+    y: Infinity
+    z: Infinity
   m_WorldIndex: 0
   m_CustomTags:
     Tag00: 0

@@ -31,18 +31,19 @@ partial struct FloorDetectionTriggerSystem : ISystem
             var raycastInput = new RaycastInput
             {
                 Start = transform.ValueRO.Position,
-                End = transform.ValueRO.Position - new float3(0.0f, 10.0f, 0.0f),
+                End = transform.ValueRO.Position - new float3(0.0f, 10.0f, 0.0f), 
                 Filter = CollisionFilter.Default
             };
 
-            Debug.DrawRay(transform.ValueRO.Position, transform.ValueRO.Position - new float3(0.0f, 10.0f, 0.0f));
+            Debug.DrawRay(transform.ValueRO.Position, new float3(0.0f, -10.0f, 0.0f), Color.red);
 
-                var hit = physicsWorld.CastRay(
+            var hit = physicsWorld.CastRay(
                     raycastInput,
                     out var rayResult
                 );
 
             jumpData.ValueRW.isGrounded = hit && entityManager.HasComponent<FloorTag>(rayResult.Entity);
+
 
             float3 entityPosition = transform.ValueRO.Position;
 
