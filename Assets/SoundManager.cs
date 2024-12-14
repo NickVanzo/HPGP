@@ -16,7 +16,6 @@ public class SoundManager : MonoBehaviour
         turtle.Stop();
         rabbit.Stop();
         int randInt = Random.Range(1, 5);
-        Debug.Log($"PlayJumpSound called with randInt: {randInt}");
 
         if (randInt == 1)
         {
