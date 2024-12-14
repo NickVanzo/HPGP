@@ -260,16 +260,16 @@ MonoBehaviour:
     y: 0
     z: 0
   m_GravityFactor: 2
-  m_OverrideDefaultMassDistribution: 0
+  m_OverrideDefaultMassDistribution: 1
   m_CenterOfMass:
     x: 0
     y: 0
     z: 0
   m_Orientation:
     Value:
-      x: 0
-      y: 0
-      z: 0
+      x: Infinity
+      y: Infinity
+      z: Infinity
     RotationOrder: 4
   m_InertiaTensor:
     x: 0
@@ -297,8 +297,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13b54048ac80774bb48b461af8b8689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 1000
-  forwardForce: 3
+  jumpForce: 0.2
+  forwardForce: 0.2
   isGrounded: 0
   isTouchingCar: 0
 --- !u!114 &6571853329320482925

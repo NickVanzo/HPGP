@@ -4,6 +4,7 @@ using Unity.Entities;
 using Unity.Transforms;
 using Unity.Physics;
 using Unity.Mathematics;
+using UnityEngine;
 using Debug = UnityEngine.Debug;
 
 partial struct FrogJumpSystem : ISystem
@@ -25,20 +26,13 @@ partial struct FrogJumpSystem : ISystem
         // (In the scene, the root cube has a non-uniform scale, so it is given a PostTransformMatrix component in baking.)
         void Execute(ref PhysicsVelocity physicsVelocity, ref FrogJumpData jumpData, LocalTransform localTransform)
         {
-            string isGrounded = jumpData.isGrounded == true ? "true" : "false";
-            if (jumpData.isGrounded)
+            if (jumpData.isGrounded || jumpData.isTouchingCar)
             {
-                float3 jumpDirection = math.normalize(new float3(0, jumpData.jumpForce, jumpData.forwardForce));
-                physicsVelocity.Linear += jumpDirection;
-            }
-            if(jumpData.isTouchingCar)
-            {
-                Unity.Mathematics.Random random = new Unity.Mathematics.Random((uint)(456)); 
                 float3 randomForce = new float3(
-                    random.NextFloat(-5f, 5f), 
-                    random.NextFloat(5f, 15f), 
-                    random.NextFloat(-5f, 5f)  
-                );
+                   UnityEngine.Random.Range(-1f * jumpData.forwardForce, jumpData.forwardForce),
+                   UnityEngine.Random.Range(0, jumpData.jumpForce),
+                   UnityEngine.Random.Range(-1f * jumpData.forwardForce, jumpData.forwardForce)
+               );
 
                 physicsVelocity.Linear += randomForce;
                 jumpData.isTouchingCar = false;
