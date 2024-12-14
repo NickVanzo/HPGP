@@ -52,8 +52,8 @@ partial struct FloorDetectionTriggerSystem : ISystem
             if(distance < 2.0f)
             {
                 jumpData.ValueRW.isTouchingCar = true;
-                //var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
-                //soundManager.PlayJumpSound();
+                var soundManager = GameObject.FindAnyObjectByType<SoundManager>();
+                soundManager.PlayJumpSound();
             } else
             {
                 jumpData.ValueRW.isTouchingCar = false;
