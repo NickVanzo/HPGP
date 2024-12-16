@@ -1728,7 +1728,7 @@ MonoBehaviour:
   spawnAmount: 1
   prefabToSpawn: {fileID: 4248985428760666343, guid: e0f1d1cb4b259cd4b9a628347d46a9fa,
     type: 3}
-  schedulingType: 0
+  schedulingType: 1
 --- !u!1001 &535393637
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5174,7 +5174,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103f7cb3b301543f28c4681bc403ebb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAmount: 5000
+  spawnAmount: 1000
   prefabToSpawn: {fileID: 5052114466756796623, guid: a9d6cd2b20c774abbbe1fcc8753f880f,
     type: 3}
   schedulingType: 1
