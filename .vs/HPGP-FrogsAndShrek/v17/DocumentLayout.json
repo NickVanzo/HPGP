@@ -1,8 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\tiaf\\Documents\\GitHub\\HPGP-FrogsAndShrek\\",
+  "WorkspaceRootPath": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|C:\\Users\\tiaf\\Documents\\GitHub\\HPGP-FrogsAndShrek\\assets\\14. exam\\scripts\\systems\\floordetectiontriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|solutionrelative:assets\\14. exam\\scripts\\systems\\floordetectiontriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -41,6 +42,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|C:\\Users\\tiaf\\Documents\\GitHub\\HPGP-FrogsAndShrek\\assets\\12. raycast car\\scripts\\vehicleauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|solutionrelative:assets\\12. raycast car\\scripts\\vehicleauthoring.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+=======
+      "AbsoluteMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\assets\\14. exam\\scripts\\systems\\floordetectiontriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|solutionrelative:assets\\14. exam\\scripts\\systems\\floordetectiontriggersystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\assets\\14. exam\\scripts\\systems\\frogjumpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{782CE6F6-A3E2-33B2-1B86-757BD74AF1BB}|Unity.Physics.Samples.csproj|solutionrelative:assets\\14. exam\\scripts\\systems\\frogjumpsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -50,6 +59,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 318,
+<<<<<<< Updated upstream
           "SelectedChildIndex": 4,
           "Children": [
             {
@@ -86,12 +96,26 @@
               "ToolTip": "C:\\Users\\tiaf\\Documents\\GitHub\\HPGP-FrogsAndShrek\\Assets\\SoundManager.cs",
               "RelativeToolTip": "Assets\\SoundManager.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAApAAAA",
+=======
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FrogJumpSystem.cs",
+              "DocumentMoniker": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\14. Exam\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "ToolTip": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "RelativeToolTip": "Assets\\14. Exam\\Scripts\\Systems\\FrogJumpSystem.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwB4AAAAiAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T10:32:31.066Z",
+              "WhenOpened": "2024-12-10T09:51:46.135Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+<<<<<<< Updated upstream
               "DocumentIndex": 5,
               "Title": "SpawnSystem.cs",
               "DocumentMoniker": "C:\\Users\\tiaf\\Documents\\GitHub\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Systems\\SpawnSystem.cs",
@@ -105,12 +129,15 @@
             },
             {
               "$type": "Document",
+=======
+>>>>>>> Stashed changes
               "DocumentIndex": 0,
               "Title": "FloorDetectionTriggerSystem.cs",
-              "DocumentMoniker": "C:\\Users\\tiaf\\Documents\\GitHub\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Systems\\FloorDetectionTriggerSystem.cs",
+              "DocumentMoniker": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Systems\\FloorDetectionTriggerSystem.cs",
               "RelativeDocumentMoniker": "Assets\\14. Exam\\Scripts\\Systems\\FloorDetectionTriggerSystem.cs",
-              "ToolTip": "C:\\Users\\tiaf\\Documents\\GitHub\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Systems\\FloorDetectionTriggerSystem.cs",
+              "ToolTip": "C:\\Users\\nvan\\Documents\\Unity Projects\\HPGP-FrogsAndShrek\\Assets\\14. Exam\\Scripts\\Systems\\FloorDetectionTriggerSystem.cs",
               "RelativeToolTip": "Assets\\14. Exam\\Scripts\\Systems\\FloorDetectionTriggerSystem.cs",
+<<<<<<< Updated upstream
               "ViewState": "AQIAAA4AAAAAAAAAAAAIwDYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T10:08:04.471Z",
@@ -176,6 +203,12 @@
               "ViewState": "AQIAAEkAAAAAAAAAAAAYwGsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-10T09:50:09.833Z"
+=======
+              "ViewState": "AQIAABcAAAAAAAAAAAAIwC4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-12T10:08:04.471Z",
+              "EditorCaption": ""
+>>>>>>> Stashed changes
             }
           ]
         }
