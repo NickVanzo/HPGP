@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -201,6 +205,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -273,6 +281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -343,6 +355,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_Name
       value: mountain (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
@@ -415,6 +431,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -485,6 +505,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -557,6 +581,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oakTree_leafless (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -627,6 +655,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_Name
       value: oakTree_leafless (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
@@ -699,6 +731,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oakTree_leafless (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -769,6 +805,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (21)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -841,6 +881,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oakTree_leafless (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -911,6 +955,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_Name
       value: tree_leafless (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
@@ -983,6 +1031,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1053,6 +1105,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_Name
       value: oakTree_leafless (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
@@ -1125,6 +1181,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mountain (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1195,6 +1255,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1267,6 +1331,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oakTree_leafless (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -1337,6 +1405,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -1409,6 +1481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -1479,6 +1555,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -1551,6 +1631,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -1621,6 +1705,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -1697,7 +1785,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &533099749
 Transform:
   m_ObjectHideFlags: 0
@@ -1740,6 +1828,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_Name
       value: oakTree_leafless (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
@@ -1812,6 +1904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -1882,6 +1978,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -1954,6 +2054,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -2024,6 +2128,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_Name
       value: tree_leafless (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
@@ -2096,6 +2204,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2166,6 +2278,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_Name
       value: oakTree_leafless (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
@@ -2238,6 +2354,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2309,6 +2429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2376,20 +2500,55 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 221528145576596465, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 221528145577086929, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: -2.627842
+      objectReference: {fileID: 0}
+    - target: {fileID: 366263291701177904, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1175438202004772077, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 1412695583119606170, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
         type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.372158
       objectReference: {fileID: 0}
+    - target: {fileID: 1412695583119646138, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 1861092937126711841, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2087785041586789453, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 2582731685403514538, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 2648079297441265041, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
         type: 3}
       propertyPath: m_MotionType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 2686943584779152447, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
         type: 3}
@@ -2451,15 +2610,70 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2780241407327939773, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 3663776305570832598, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4962730295340259443, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966697720520430608, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 5113948304665675933, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
         type: 3}
       propertyPath: m_Name
       value: TerrainMesh
       objectReference: {fileID: 0}
+    - target: {fileID: 5113948304665675933, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6936384434579320923, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 6993520787735084746, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669742306427700097, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_ShapeType
+      value: 31
+      objectReference: {fileID: 0}
     - target: {fileID: 7669742306427700097, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
         type: 3}
       propertyPath: m_Material.m_BelongsToCategories.m_Value.Category00
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7669742306427700097, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_ConvexHullGenerationParameters.m_SimplificationTolerance
+      value: 7.870076
+      objectReference: {fileID: 0}
+    - target: {fileID: 8098860311563466925, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
+    - target: {fileID: 8849363413789044760, guid: 29b01efb964777b4eb5f25c4c8fb6d51,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2782,6 +2996,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -2852,6 +3070,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -2924,6 +3146,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -2994,6 +3220,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -3066,6 +3296,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3136,6 +3370,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_Name
       value: tree_leafless (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
@@ -3208,6 +3446,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oakTree_leafless (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3278,6 +3520,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3350,6 +3596,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -3420,6 +3670,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -3492,6 +3746,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mountain (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3562,6 +3820,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_Name
       value: mountain (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
@@ -3634,6 +3896,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -3704,6 +3970,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -3776,6 +4046,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oakTree_leafless (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3846,6 +4120,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_Name
       value: mountain (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
@@ -3918,6 +4196,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mountain (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -3988,6 +4270,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_Name
       value: mountain (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
@@ -4128,6 +4414,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mountain (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -4198,6 +4488,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_Name
       value: oakTree_leafless (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
@@ -4270,6 +4564,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -4340,6 +4638,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -4412,6 +4714,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -4482,6 +4788,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -4554,6 +4864,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: oakTree_leafless (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e3d54c8d2447c9f4b9ad5d2021da4b42, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -4624,6 +4938,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -4696,6 +5014,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mountain (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -4766,6 +5088,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_Name
       value: tree_leafless (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
@@ -4838,6 +5164,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -4908,6 +5238,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_Name
       value: tree_leafless (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
@@ -5068,6 +5402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -5174,7 +5512,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 103f7cb3b301543f28c4681bc403ebb4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnAmount: 1000
+  spawnAmount: 25000
   prefabToSpawn: {fileID: 5052114466756796623, guid: a9d6cd2b20c774abbbe1fcc8753f880f,
     type: 3}
   schedulingType: 1
@@ -5204,6 +5542,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -5275,6 +5617,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_Name
       value: birchTree_leafless (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
@@ -5642,6 +5988,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mountain (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -5712,6 +6062,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_Name
       value: tree_leafless (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
@@ -5784,6 +6138,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -5854,6 +6212,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_Name
       value: mountain (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 4882698f19d48dd42af12117cea6f02b, type: 3}
       propertyPath: m_LocalScale.x
@@ -5926,6 +6288,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: tree_leafless (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.3487082
@@ -5996,6 +6362,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_Name
       value: birchTree (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf854a44f4078f841a91c4fdfa36277a, type: 3}
       propertyPath: m_LocalScale.x
@@ -6068,6 +6438,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: birchTree_leafless (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 05bac68c5ab8b3d4a89f1030377162ab, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -6138,6 +6512,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_Name
       value: tree_leafless (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e44e1a4a2783d5f41afcd8c670195f85, type: 3}
       propertyPath: m_LocalScale.x

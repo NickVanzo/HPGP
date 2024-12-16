@@ -131,7 +131,7 @@ MonoBehaviour:
   m_MinimumSkinnedVertexWeight: 0.147
   m_ConvexHullGenerationParameters:
     m_SimplificationTolerance: 0.015
-    m_BevelRadius: 0.05
+    m_BevelRadius: 0
     m_MinimumAngle: 2.5000002
   m_CustomMesh: {fileID: -2432090755550338912, guid: c0894493b4f8a4b3d8a6998e0b84e8f7,
     type: 3}
@@ -145,7 +145,7 @@ MonoBehaviour:
     m_Friction:
       m_Override: 0
       m_Value:
-        Value: 0.5
+        Value: 0.1
         CombineMode: 0
     m_Restitution:
       m_Override: 0
@@ -298,8 +298,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f13b54048ac80774bb48b461af8b8689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 3
-  forwardForce: 2
+  jumpForce: 6
+  forwardForce: 3
   isGrounded: 0
   isTouchingCar: 0
 --- !u!114 &6571853329320482925

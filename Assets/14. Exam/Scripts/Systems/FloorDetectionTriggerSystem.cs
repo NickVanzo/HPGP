@@ -5,6 +5,7 @@ using Unity.Transforms;
 using Unity.Mathematics;
 using Unity.Physics;
 using UnityEngine;
+using static UnityEngine.EventSystems.EventTrigger;
 
 partial struct FloorDetectionTriggerSystem : ISystem
 {
@@ -49,9 +50,10 @@ partial struct FloorDetectionTriggerSystem : ISystem
                 var raycastInput = new RaycastInput
                 {
                     Start = transform.ValueRO.Position,
-                    End = transform.ValueRO.Position - new float3(0.0f, 10.0f, 0.0f),
+                    End = transform.ValueRO.Position - new float3(0.0f, 1.0f, 0.0f),
                     Filter = CollisionFilter.Default
                 };
+
 
                 var hit = physicsWorldSingleton.CastRay(
                         raycastInput,
@@ -59,7 +61,6 @@ partial struct FloorDetectionTriggerSystem : ISystem
                     );
 
                 jumpData.ValueRW.isGrounded = hit && entityManager.HasComponent<FloorTag>(rayResult.Entity);
-
 
                 float3 entityPosition = transform.ValueRO.Position;
 
@@ -87,6 +88,7 @@ partial struct FloorDetectionTriggerSystem : ISystem
         [ReadOnly] public CollisionWorld collisionWorld;
         public float3 carPosition;
 
+        //public EntityCommandBuffer ecb;
 
         void Execute(
            in FloorDetectionTriggerComponent triggerComponent,
@@ -97,9 +99,10 @@ partial struct FloorDetectionTriggerSystem : ISystem
             var raycastInput = new RaycastInput
             {
                 Start = transform.Position,
-                End = transform.Position - new float3(0.0f, 10.0f, 0.0f),
+                End = transform.Position - new float3(0.0f, 1.0f, 0.0f),
                 Filter = CollisionFilter.Default
             };
+
             var hit = collisionWorld.CastRay(raycastInput, out var rayResult);
             jumpData.isGrounded = hit && floorTagLookup.HasComponent(rayResult.Entity);
 
