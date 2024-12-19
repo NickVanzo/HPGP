@@ -5446,7 +5446,7 @@ GameObject:
   - component: {fileID: 1850360251}
   - component: {fileID: 1850360250}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: EntitiesGenerator
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

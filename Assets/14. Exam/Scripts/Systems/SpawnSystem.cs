@@ -31,7 +31,8 @@ partial struct SpawnSystem : ISystem
         }
         else
         {
-            /*            int n = ecbSingleton.spawnAmount;
+
+            var n = ecbSingleton.spawnAmount;
             Unity.Mathematics.Random random = new Unity.Mathematics.Random((uint)UnityEngine.Time.frameCount);
 
             for (int i = 0; i < n; i++)
@@ -44,7 +45,7 @@ partial struct SpawnSystem : ISystem
                 float y = 0.1f; // Almost ground level
 
                 state.EntityManager.SetComponentData(e, LocalTransform.FromPosition(new float3(x, y, z)));
-            }*/
+            }
         }
     }
 }
