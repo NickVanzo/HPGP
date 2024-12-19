@@ -1,12 +1,12 @@
 using UnityEngine;
 using System.Collections;
-using TMPro;
+//using TMPro;
 using Unity.Entities;
 using Unity.Entities.UniversalDelegates;
 
 public class CollisionUIController : MonoBehaviour
 {
-    [SerializeField] TMP_Text text;
+    //[SerializeField] TMP_Text text;
 
     private Entity counterEntity;
     private EntityManager entityManager;
@@ -25,6 +25,6 @@ public class CollisionUIController : MonoBehaviour
     void Update()
     {
         int _counter = entityManager.GetComponentData<CounterData>(counterEntity).value;
-        text = $"Frogs Hit: {_counter}";
+        //text = $"Frogs Hit: {_counter}";
     }
 }
